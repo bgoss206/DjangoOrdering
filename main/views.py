@@ -60,7 +60,7 @@ def orders(response):
                 message += ("Item Requested: " + item.text + "Quantity: " + str(item.quantity_requested) + "\n")
             message += ("Date Needed: " + str(order.date_needed))
             email_from = settings.EMAIL_HOST_USER
-            recipient_list = ['braxtonagoss@gmail.com']
+            recipient_list = #HIDDEN FOR PRIVACY
 
             send_mail(subject, message, email_from, recipient_list)
 
